@@ -1,0 +1,73 @@
+
+C'EST QUOI LE HTTP?
+
+HTTP est un protocole : un langage commun pour échanger des données sur le web.
+
+Il fonctionne sur un modèle client-serveur et un cycle requête-réponse.
+
+Il est stateless : chaque requête est indépendante. Le serveur ne "se souvient" pas de vous d'une fois sur l'autre (pour cela, on utilise les cookies).
+
+HTTP est non sécurisé. Pour toute interaction sensible, vérifiez que l'URL commence bien par https:// et qu'un cadenas s'affiche dans la barre d'adresse de votre navigateur.
+
+
+Titre : 📋 Le B.A.-BA du Nom de Domaine
+
+Qu'est-ce que c'est ?
+Votre adresse unique sur Internet (ex: votresite.com). C'est le nom que les internautes tapent pour trouver votre site web.
+
+À quoi ça sert ?
+
+✅ Se faire trouver : C'est votre identité numérique et le point d'entrée vers votre contenu.
+
+✅ Crédibiliser : Avoir son propre nom de domaine (plutôt qu'une adresse de blog gratuit) paraît plus professionnel.
+
+
+
+ À Savoir sur l’Hébergement Web (Hosting)
+Définition :
+Service permettant de stocker les fichiers d’un site web sur un serveur connecté en permanence à Internet, pour le rendre accessible worldwide.
+
+Fonctionnement :
+
+Les fichiers sont uploadés sur le serveur.
+
+Le nom de domaine est configuré pour pointer vers cet hébergement.
+
+Types principaux :
+
+Mutualisé : Partagé avec d’autres sites. Économique.
+
+VPS : Serveur virtuel privé. Équilibre entre performance et prix.
+
+Dédié : Serveur physique entier. Performant et personnalisable.
+
+Cloud : Hébergé sur plusieurs machines. Scalable et résilient.
+
+Objectif :
+Assurer disponibilité, rapidité et sécurité du site.
+
+
+
+
+Titre : 📞 Le DNS : Le Guideur Invisible d'Internet
+
+C'est quoi ?
+Le DNS (Système de Noms de Domaine) est l'annuaire universel qui traduit les noms de sites web (google.com) en adresses numériques (142.251.42.206) compréhensibles par les machines.
+
+À quoi ça sert ?
+
+Éviter de mémoriser des séries de chiffres (adresses IP).
+
+Diriger les visiteurs vers le bon serveur web.
+
+Router les emails vers le bon serveur de messagerie (enregistrements MX).
+
+Comment ça marche ? (Processus en 4 étapes)
+
+Votre navigateur demande à un Résolveur DNS (votre FAI).
+
+Le résolveur interroge les serveurs Racine, puis les serveurs TLD (.com, .fr).
+
+Il est redirigé vers les serveurs de Noms du domaine demandé.
+
+Ces serveurs renvoient l'adresse IP au navigateur, qui peut alors se connecter.
